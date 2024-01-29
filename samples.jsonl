@@ -1,0 +1,164 @@
+{"task_id": "HumanEval/0", "solution": "    if len(numbers) == 0:\n        return False\n    for i in"}
+{"task_id": "HumanEval/1", "solution": "    if paren_string.split()[0] == '(' and paren_"}
+{"task_id": "HumanEval/2", "solution": "    if number == 0:\n        return 0\n    if number == 1:\n        "}
+{"task_id": "HumanEval/3", "solution": "    if len(operations) > 0:\n        for operation in operations:\n            "}
+{"task_id": "HumanEval/4", "solution": "    return sum(numbers)\n\n\ndef mean_absolute_deviation(numbers"}
+{"task_id": "HumanEval/5", "solution": "    return [numbers, delimeter]\n\n\ndef main():\n    numbers ="}
+{"task_id": "HumanEval/6", "solution": "    return [\n        [\n            [\n                [\n                    [\n                        [\n"}
+{"task_id": "HumanEval/7", "solution": "    return [\n        [\n            [\n                [\n                    [\n                        [\n"}
+{"task_id": "HumanEval/8", "solution": "    if len(numbers) == 0:\n        return 0\n    if len("}
+{"task_id": "HumanEval/9", "solution": "    if len(numbers) == 0:\n        return []\n\n    if len("}
+{"task_id": "HumanEval/10", "solution": "    if not is_palindrome(string):\n        return string\n    return make"}
+{"task_id": "HumanEval/11", "solution": "    return ''.join(a)\n\n\ndef string_xor(a: str"}
+{"task_id": "HumanEval/12", "solution": "    if len(strings) == 0:\n        return None\n    return ''.join"}
+{"task_id": "HumanEval/13", "solution": "    return a * b\n\ndef greatest_common_divisor(a: int"}
+{"task_id": "HumanEval/14", "solution": "    return [\n        '{} {}'.format(\n           ''.join(\n"}
+{"task_id": "HumanEval/15", "solution": "    return ''.join(str(x) for x in str(n))\n\n"}
+{"task_id": "HumanEval/16", "solution": "    return len(string)\n\ndef count_distinct_characters(string:"}
+{"task_id": "HumanEval/17", "solution": "    if not music_string:\n        return []\n\n    music_string = music_"}
+{"task_id": "HumanEval/18", "solution": "    if not string:\n        return 0\n    string = string.lower()\n    "}
+{"task_id": "HumanEval/19", "solution": "    if not numbers:\n        return ''\n    if len(numbers) == 1"}
+{"task_id": "HumanEval/20", "solution": "    if len(numbers) == 0:\n        return 0\n    if len("}
+{"task_id": "HumanEval/21", "solution": "    if len(numbers) == 0:\n        return []\n    if len("}
+{"task_id": "HumanEval/22", "solution": "    return [int(i) for i in values]\n\ndef filter_integers"}
+{"task_id": "HumanEval/23", "solution": "    return len(string)\n\ndef strlen(string: str) -> int:"}
+{"task_id": "HumanEval/24", "solution": "    if n == 1:\n        return 1\n    if n == 2:\n        "}
+{"task_id": "HumanEval/25", "solution": "    if n == 0:\n        return []\n    if n == 1:\n        "}
+{"task_id": "HumanEval/26", "solution": "    return [numbers, numbers]\n\n\ndef remove_duplicates(numbers"}
+{"task_id": "HumanEval/27", "solution": "    return string\n\ndef main():\n    print(flip_case('Hello'"}
+{"task_id": "HumanEval/28", "solution": "    return ''.join(strings)\n\n\ndef concatenate_strings(strings:"}
+{"task_id": "HumanEval/29", "solution": "    return [\n        '{prefix}{strings}'.format(\n            prefix=prefix"}
+{"task_id": "HumanEval/30", "solution": "    if len(l) == 0:\n        return []\n    return [l["}
+{"task_id": "HumanEval/31", "solution": "    if n == 0:\n        return 0\n    if n == 1:\n        "}
+{"task_id": "HumanEval/32", "solution": "    return xs\n\n\ndef find_zero(xs: list):\n    for i"}
+{"task_id": "HumanEval/33", "solution": "    if len(l) == 0:\n        return []\n    if len(l"}
+{"task_id": "HumanEval/34", "solution": "    return l\n\n\ndef unique(l: list):\n    \"\"\"Return a list with"}
+{"task_id": "HumanEval/35", "solution": "    for i in range(len(l)):\n        if l[i] =="}
+{"task_id": "HumanEval/36", "solution": "    if n == 1:\n        return 1\n    if n == 2:\n        "}
+{"task_id": "HumanEval/37", "solution": "    if len(l) == 0:\n        return []\n    if len(l"}
+{"task_id": "HumanEval/38", "solution": "    return s\n\nif __name__ == \"__main__\":\n    print("}
+{"task_id": "HumanEval/39", "solution": "    if n == 1:\n        return 1\n    if n == 2:\n        "}
+{"task_id": "HumanEval/40", "solution": "    if len(l) == 0:\n        return True\n    if len(l"}
+{"task_id": "HumanEval/41", "solution": "    if n == 0:\n        return 0\n    if n == 1:\n        "}
+{"task_id": "HumanEval/42", "solution": "    return l\n\n\ndef main():\n    l = [1, 2, 3]"}
+{"task_id": "HumanEval/43", "solution": "    if len(l) == 0:\n        return True\n    if len(l"}
+{"task_id": "HumanEval/44", "solution": "    return ''.join(str(x) for x in str(x) if x"}
+{"task_id": "HumanEval/45", "solution": "    if a > h:\n        return h\n    else:\n        return a\n"}
+{"task_id": "HumanEval/46", "solution": "    if n == 0:\n        return 0\n    if n == 1:\n        "}
+{"task_id": "HumanEval/47", "solution": "    if len(l) == 0:\n        return 0\n    return sum(l"}
+{"task_id": "HumanEval/48", "solution": "    if not text:\n        return False\n    if not text.strip():\n        "}
+{"task_id": "HumanEval/49", "solution": "    return n, p\n\ndef main():\n    n, p = map(int"}
+{"task_id": "HumanEval/50", "solution": "    return \"\".join([chr(ord(ch) + 5 - ord(\"a"}
+{"task_id": "HumanEval/51", "solution": "    if text:\n        text = text.strip()\n    return text\n\ndef"}
+{"task_id": "HumanEval/52", "solution": "    if t > t:\n        return False\n    if l > t:\n        "}
+{"task_id": "HumanEval/53", "solution": "    return x + y\n\ndef add(x: int, y: int) ->"}
+{"task_id": "HumanEval/54", "solution": "    if not s0:\n        return False\n    if s0 == s1:"}
+{"task_id": "HumanEval/55", "solution": "    if n == 1:\n        return 1\n    if n == 2:\n        "}
+{"task_id": "HumanEval/56", "solution": "    if not brackets:\n        return False\n    if brackets[0] == \"(\""}
+{"task_id": "HumanEval/57", "solution": "    if len(l) == 0:\n        return True\n    if len(l"}
+{"task_id": "HumanEval/58", "solution": "    return l1, l2\n\ndef common(l1: list, l2"}
+{"task_id": "HumanEval/59", "solution": "    if n == 1:\n        return 1\n    if n == 2:\n        "}
+{"task_id": "HumanEval/60", "solution": "    return n\n\ndef sum_to_n(n: int):\n    \"\"\""}
+{"task_id": "HumanEval/61", "solution": "    if not brackets:\n        return False\n    bracket_type = brackets[0"}
+{"task_id": "HumanEval/62", "solution": "    return xs\n\ndef main():\n    \"\"\"\n    This is the main function"}
+{"task_id": "HumanEval/63", "solution": "    if n == 0:\n        return 0\n    if n == 1:\n        "}
+{"task_id": "HumanEval/64", "solution": "    return s\n\ndef main():\n    print(vowels_count(\"abc"}
+{"task_id": "HumanEval/65", "solution": "    if x > 0:\n        return \"right\"\n    else:\n        return"}
+{"task_id": "HumanEval/66", "solution": "    if s == \"\":\n        return 0\n    if s[0] == \""}
+{"task_id": "HumanEval/67", "solution": "    if n == 0:\n        return 0\n    if n == 1:\n        "}
+{"task_id": "HumanEval/68", "solution": "    if len(arr) == 0:\n        return []\n    if len(arr"}
+{"task_id": "HumanEval/69", "solution": "    if len(lst) == 0:\n        return -1\n    return l"}
+{"task_id": "HumanEval/70", "solution": "    if len(lst) == 0:\n        return []\n    if len("}
+{"task_id": "HumanEval/71", "solution": "    if a > b:\n        return a\n    else:\n        return b\n"}
+{"task_id": "HumanEval/72", "solution": "    if not q:\n        return False\n    if q[0] == w:"}
+{"task_id": "HumanEval/73", "solution": "    if len(arr) == 0:\n        return 0\n    if len(arr"}
+{"task_id": "HumanEval/74", "solution": "    if lst1[0] == lst2[0]:\n        return l"}
+{"task_id": "HumanEval/75", "solution": "    if a > 100:\n        return True\n    else:\n        return False\n"}
+{"task_id": "HumanEval/76", "solution": "    if n == 0:\n        return 0\n    if n == 1:\n        "}
+{"task_id": "HumanEval/77", "solution": "    if a > 0:\n        return True\n    else:\n        return False\n"}
+{"task_id": "HumanEval/78", "solution": "    if num == \"AB\":\n        return \"AB\"\n    if num == \""}
+{"task_id": "HumanEval/79", "solution": "    if not decimal:\n        return str(decimal)\n    return '{0"}
+{"task_id": "HumanEval/80", "solution": "    if s == '1':\n        return True\n    return False\n\ndef is"}
+{"task_id": "HumanEval/81", "solution": "    if len(grades) == 0:\n        return []\n    \n    return ["}
+{"task_id": "HumanEval/82", "solution": "    if len(string) == 0:\n        return True\n    if len(string"}
+{"task_id": "HumanEval/83", "solution": "    if n == 1:\n        return 1\n    if n == 2:\n        "}
+{"task_id": "HumanEval/84", "solution": "    if N == 1:\n        return 1\n    if N == 2:\n        "}
+{"task_id": "HumanEval/85", "solution": "    if not lst:\n        return 0\n    return len(lst)\n"}
+{"task_id": "HumanEval/86", "solution": "    if len(s) == 0:\n        return s\n    s = s."}
+{"task_id": "HumanEval/87", "solution": "    if x == 0:\n        return 0\n    if x == 1:\n        "}
+{"task_id": "HumanEval/88", "solution": "    if len(array) == 0:\n        return 0\n    if len(array"}
+{"task_id": "HumanEval/89", "solution": "    if s == '-':\n        return '-'\n    if s == '+"}
+{"task_id": "HumanEval/90", "solution": "    if len(lst) == 0:\n        return None\n    if len("}
+{"task_id": "HumanEval/91", "solution": "    if S == 0:\n        return 0\n    if S == 1:\n        "}
+{"task_id": "HumanEval/92", "solution": "    if not any(x in x for x in ['1', '2', '3"}
+{"task_id": "HumanEval/93", "solution": "    if message.encode('utf-8') == '{}':\n        return"}
+{"task_id": "HumanEval/94", "solution": "    if lst[0] == '0':\n        return 0\n    if l"}
+{"task_id": "HumanEval/95", "solution": "    if dict is None:\n        return False\n    if len(dict) == 0"}
+{"task_id": "HumanEval/96", "solution": "    if n == 0:\n        return 0\n    if n == 1:\n        "}
+{"task_id": "HumanEval/97", "solution": "    if a > b:\n        return a\n    else:\n        return b\n"}
+{"task_id": "HumanEval/98", "solution": "    if s == 'a':\n        return 1\n    elif s == 'b"}
+{"task_id": "HumanEval/99", "solution": "    if value is None:\n        return None\n    if isinstance(value, int"}
+{"task_id": "HumanEval/100", "solution": "    if n == 0:\n        return 0\n    if n == 1:\n        "}
+{"task_id": "HumanEval/101", "solution": "    if s.lower() == \"yes\":\n        return True\n    else:\n"}
+{"task_id": "HumanEval/102", "solution": "    if x > y:\n        return x\n    else:\n        return y\n"}
+{"task_id": "HumanEval/103", "solution": "    if n == m:\n        return -1\n    if n > m:\n"}
+{"task_id": "HumanEval/104", "solution": "    if len(x) == 0:\n        return []\n    if len(x"}
+{"task_id": "HumanEval/105", "solution": "    if len(arr) == 0:\n        return []\n    if len(arr"}
+{"task_id": "HumanEval/106", "solution": "    if n == 1:\n        return [1]\n    if n == 2:"}
+{"task_id": "HumanEval/107", "solution": "    if n == 1:\n        return (1, 2)\n    if n =="}
+{"task_id": "HumanEval/108", "solution": "    if len(arr) == 0:\n        return 0\n    if len(arr"}
+{"task_id": "HumanEval/109", "solution": "    if len(arr) == 0:\n        return True\n    if len(arr"}
+{"task_id": "HumanEval/110", "solution": "    if not lst1:\n        return \"YES\"\n    if not lst"}
+{"task_id": "HumanEval/111", "solution": "    if not test:\n        hist = {}\n        for i in range(len("}
+{"task_id": "HumanEval/112", "solution": "    if not s:\n        return ''\n    if s[0] == '\""}
+{"task_id": "HumanEval/113", "solution": "    if len(lst) == 0:\n        return []\n    if len("}
+{"task_id": "HumanEval/114", "solution": "    if len(nums) == 0:\n        return 0\n    if len("}
+{"task_id": "HumanEval/115", "solution": "    if len(grid) == 0:\n        return 0\n    \n    max_"}
+{"task_id": "HumanEval/116", "solution": "    if len(arr) == 0:\n        return []\n    if len(arr"}
+{"task_id": "HumanEval/117", "solution": "    if n == 0:\n        return []\n    if n == 1:\n        "}
+{"task_id": "HumanEval/118", "solution": "    if not word:\n        return \"\"\n    if len(word) == 1:"}
+{"task_id": "HumanEval/119", "solution": "    if not lst:\n        return 'Yes'\n    if len(lst"}
+{"task_id": "HumanEval/120", "solution": "    if len(arr) == 0:\n        return []\n    if len(arr"}
+{"task_id": "HumanEval/121", "solution": "    if len(lst) == 0:\n        return 0\n    \n    return"}
+{"task_id": "HumanEval/122", "solution": "    if len(arr) == 0:\n        return 0\n    if len(arr"}
+{"task_id": "HumanEval/123", "solution": "    if n == 1:\n        return [1]\n    if n == 2:"}
+{"task_id": "HumanEval/124", "solution": "    if not date:\n        return False\n    if date.find('-') =="}
+{"task_id": "HumanEval/125", "solution": "    if txt.lower() == 'exit':\n        return\n    if txt"}
+{"task_id": "HumanEval/126", "solution": "    if len(lst) == 0:\n        return False\n    if len("}
+{"task_id": "HumanEval/127", "solution": "    if not interval1:\n        return \"YES\"\n    if interval1[0"}
+{"task_id": "HumanEval/128", "solution": "    if len(arr) == 0:\n        return None\n    if len(arr"}
+{"task_id": "HumanEval/129", "solution": "    lst_A = [1, 2, 3, 4, 5, 6,"}
+{"task_id": "HumanEval/130", "solution": "    if n == 1:\n        return [1]\n    if n == 2:"}
+{"task_id": "HumanEval/131", "solution": "    if n == 0:\n        return 0\n    if n == 1:\n        "}
+{"task_id": "HumanEval/132", "solution": "    if not string:\n        return False\n    if string == '[]':\n        "}
+{"task_id": "HumanEval/133", "solution": "    if len(lst) == 0:\n        return 0\n    if len("}
+{"task_id": "HumanEval/134", "solution": "    if txt.lower() == \"exit\":\n        return False\n    return True"}
+{"task_id": "HumanEval/135", "solution": "    if len(arr) == 0:\n        return -1\n    return arr["}
+{"task_id": "HumanEval/136", "solution": "    if len(lst) == 0:\n        return None\n    if len("}
+{"task_id": "HumanEval/137", "solution": "    if a == b:\n        return a\n    if a > b:\n        "}
+{"task_id": "HumanEval/138", "solution": "    if n == 4:\n        return False\n    if n == 6:\n        "}
+{"task_id": "HumanEval/139", "solution": "    return n\n\ndef main():\n    print(special_factorial(4))"}
+{"task_id": "HumanEval/140", "solution": "    if not text:\n        return\n    if not text.endswith(\"\\"}
+{"task_id": "HumanEval/141", "solution": "    if file_name is None:\n        return None\n    if not file_name"}
+{"task_id": "HumanEval/142", "solution": "    \n    \n    \n    \n    \n    \n    \n    \n    \n    "}
+{"task_id": "HumanEval/143", "solution": "    if len(sentence) > 0:\n        sentence = sentence.replace(\""}
+{"task_id": "HumanEval/144", "solution": "    if n == 0:\n        return True\n    if n < 0:\n        "}
+{"task_id": "HumanEval/145", "solution": "    if len(nums) == 0:\n        return []\n    if len("}
+{"task_id": "HumanEval/146", "solution": "    if len(nums) == 0:\n        return 0\n    if len("}
+{"task_id": "HumanEval/147", "solution": "    max_triples = max(max_triples, len(triples))\n"}
+{"task_id": "HumanEval/148", "solution": "    if not planet1 or not planet2:\n        return None\n    if planet1"}
+{"task_id": "HumanEval/149", "solution": "    if len(lst) == 0:\n        return []\n    if len("}
+{"task_id": "HumanEval/150", "solution": "    if n == 1:\n        return 1\n    if n == 2:\n        "}
+{"task_id": "HumanEval/151", "solution": "    if lst is None:\n        return 0\n    if len(lst)"}
+{"task_id": "HumanEval/152", "solution": "    if guess > guess:\n        print(\"Too high!\")\n    elif guess"}
+{"task_id": "HumanEval/153", "solution": "    if not isinstance(class_name, str):\n        raise TypeError(\"class"}
+{"task_id": "HumanEval/154", "solution": "    if a == b:\n        return True\n    if a > b:\n        "}
+{"task_id": "HumanEval/155", "solution": "    if num == 1:\n        return num\n    else:\n        return num *"}
+{"task_id": "HumanEval/156", "solution": "    if number == '1':\n        return 'one'\n    if number == '"}
+{"task_id": "HumanEval/157", "solution": "    if a > b:\n        return True\n    else:\n        return False\n"}
+{"task_id": "HumanEval/158", "solution": "    max_length = max(len(words) for words in words)\n    max"}
+{"task_id": "HumanEval/159", "solution": "    if need == '1':\n        if need == '1':\n            if need"}
+{"task_id": "HumanEval/160", "solution": "    if operator == '+':\n        return operator + operand\n    elif operator"}
+{"task_id": "HumanEval/161", "solution": "    if len(s) == 0:\n        return \"\"\n    if len(s"}
+{"task_id": "HumanEval/162", "solution": "    if not text:\n        return None\n    return text.strip()\n\ndef"}
+{"task_id": "HumanEval/163", "solution": "    if a > b:\n        return a\n    else:\n        return b\n"}
